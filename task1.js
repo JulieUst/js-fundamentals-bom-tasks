@@ -5,3 +5,11 @@
 // Запустіть програму за допомогою Live Server
 // перевірте виконання за допомогою команди node tests/task1.test.js
 
+function changeCSS() {
+    let textElement = document.getElementById('text');
+    if (textElement) {
+        textElement.style.color = 'orange';
+        textElement.style.fontSize = '20px';
+        textElement.style.fontFamily = 'Comic Sans MS';
+    }
+}
